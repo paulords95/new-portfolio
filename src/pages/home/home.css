@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow: hidden;
   height: 100vh;
 }
 
@@ -49,6 +50,7 @@ body {
 
 svg {
   display: block;
+  overflow: hidden;
 }
 
 .code-wrap {
@@ -56,7 +58,7 @@ svg {
   position: absolute;
   z-index: 2;
   right: 0%;
-  top: 15em;
+  top: 20em;
 }
 
 .code-think-wrap {
@@ -161,5 +163,18 @@ div.scroll-position {
   }
   .code-think-wrap {
     width: 30%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    height: 75vh;
+  }
+  .title-wrap {
+    margin-top: 0em;
+  }
+
+  .home-wrap {
+    height: 90vh;
   }
 }
