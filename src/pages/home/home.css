@@ -31,14 +31,14 @@ body {
 
 .title {
   position: relative;
-  font-size: 48px;
+  font-size: 4em;
   color: #fbfbfe;
   font-family: "Montserrat", sans-serif;
 }
 
 .subtitle {
   position: relative;
-  font-size: 24px;
+  font-size: 1.5em;
   color: #fbfbfe;
   font-family: "Montserrat", sans-serif;
 }
@@ -111,30 +111,44 @@ div.scroll-position {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   .code-wrap {
-    width: 60%;
-    left: 50%;
+    width: 30%;
+    left: 70%;
   }
   .code-think-wrap {
-    width: 30%;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .code-wrap {
-    width: 60%;
-  }
-  .code-think-wrap {
-    width: 30%;
+    width: 20%;
     left: 0%;
     bottom: 0%;
   }
 }
 
+@media only screen and (max-width: 1300px) {
+  .code-wrap {
+    width: 30%;
+    left: 68%;
+  }
+  .code-think-wrap {
+    width: 20%;
+    left: 0%;
+    bottom: 0%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .code-wrap {
+    width: 30%;
+    left: 70%;
+  }
+  .code-think-wrap {
+    width: 30%;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .code-wrap {
-    width: 60%;
+    width: 30%;
+    left: 70%;
   }
   .code-think-wrap {
     width: 30%;
@@ -143,9 +157,9 @@ div.scroll-position {
 
 @media only screen and (max-width: 600px) {
   .code-wrap {
-    width: 50%;
+    width: 30%;
   }
   .code-think-wrap {
-    width: 40%;
+    width: 30%;
   }
 }
