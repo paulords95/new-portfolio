@@ -58,3 +58,55 @@ svg {
   right: 0%;
   top: 15em;
 }
+
+.code-think-wrap {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  bottom: 8em;
+  left: 5em;
+}
+
+.scroll-wrap {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.scroll-position {
+  bottom: 3em;
+  z-index: 3;
+  width: 30px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.scroll-position:hover {
+  background-color: #c0c0ca4d;
+}
+
+div.scroll-position {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+div.scroll-position {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

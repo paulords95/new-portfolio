@@ -1,5 +1,7 @@
 import React from "react";
 import { ReactComponent as CodeSvg } from "../../assets/svgs/programming.svg";
+import { ReactComponent as CodeThink } from "../../assets/svgs/codeThink.svg";
+import { ReactComponent as ScrollSvg } from "../../assets/svgs/scroll.svg";
 import "./home.css";
 
 const Home = () => {
@@ -15,10 +17,21 @@ const Home = () => {
       <div className="code-wrap">
         <CodeSvg />
       </div>
+      <div className="code-think-wrap">
+        <CodeThink />
+      </div>
+      <div className="scroll-wrap">
+        <div
+          className="scroll-position"
+          style={{ position: "absolute", bottom: "3em", zIndex: 3, width: 30 }}
+        >
+          <ScrollSvg />
+        </div>
+      </div>
       <div className="wave">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
+          viewBox="0 0 1240 320"
           preserveAspectRatio="none"
         >
           <path
