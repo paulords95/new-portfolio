@@ -1,6 +1,5 @@
 .stack-page-container {
-  display: flex;
-  position: relative;
+  padding-top: 100px;
   height: 100vh;
   width: 100vw;
   background-color: #fbfbfe;
@@ -11,13 +10,14 @@
   display: flex;
   flex-direction: column;
   margin-top: 5em;
+  width: max-content;
   height: max-content;
+  margin: 0 auto;
 }
 
 .title-stack-wrap > hr {
   width: 50%;
   margin-top: -20px;
-
   border-width: 1.5px;
   background-color: #009320;
   border-color: #009320;
@@ -25,4 +25,32 @@
 .title-stack {
   font-family: "Montserrat", sans-serif;
   color: #635858;
+}
+
+.stack-items-wrap {
+  display: flex;
+  width: 40vw;
+  height: 65vh;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 10em;
+}
+
+.stack-items-wrap svg {
+  padding-inline: 40px;
+}
+
+.js-item-container {
+  height: max-content;
+}
+
+.react-item-container {
+  height: max-content;
+}
+
+@media only screen and (max-width: 800px) {
+  .stack-items-wrap {
+    width: 80vw;
+  }
 }
