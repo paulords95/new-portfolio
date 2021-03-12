@@ -1,0 +1,28 @@
+.stack-page-container {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fbfbfe;
+  justify-content: center;
+}
+
+.title-stack-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  height: max-content;
+}
+
+.title-stack-wrap > hr {
+  width: 50%;
+  margin-top: -20px;
+
+  border-width: 1.5px;
+  background-color: #009320;
+  border-color: #009320;
+}
+.title-stack {
+  font-family: "Montserrat", sans-serif;
+  color: #635858;
+}
