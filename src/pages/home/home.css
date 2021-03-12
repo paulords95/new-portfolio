@@ -194,14 +194,17 @@ div.scroll-position {
   .code-think-wrap {
     width: 30%;
   }
+  .title {
+    font-size: 2em;
+  }
+  .subtitle {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 450px) {
   body {
     height: 75vh;
-  }
-  .title-wrap {
-    margin-top: 0em;
   }
 
   .home-wrap {
