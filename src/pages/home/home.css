@@ -89,12 +89,12 @@ svg {
 }
 
 div.scroll-position {
-  -webkit-animation: mover 1s infinite alternate;
-  animation: mover 1s infinite alternate;
+  -webkit-animation: mover 0.5s infinite alternate;
+  animation: mover 0.5s infinite alternate;
 }
 div.scroll-position {
   -webkit-animation: mover 1s infinite alternate;
-  animation: mover 1s infinite alternate;
+  animation: mover 0.5s infinite alternate;
 }
 @-webkit-keyframes mover {
   0% {

@@ -31,7 +31,7 @@ const Home = () => {
       <div className="wave">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1240 320"
+          viewBox="0 0 1420 320"
           preserveAspectRatio="none"
         >
           <path
