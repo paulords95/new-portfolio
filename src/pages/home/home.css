@@ -191,11 +191,21 @@ div.scroll-position {
 }
 
 @media only screen and (max-width: 600px) {
+  .home-wrap {
+    height: 95vh;
+  }
   .code-wrap {
-    width: 30%;
+    width: 45%;
+    left: 53%;
+    top: 60%;
   }
   .code-think-wrap {
-    width: 30%;
+    width: 45%;
+    left: 5%;
+    top: 80%;
+  }
+  .logos-wrap svg {
+    padding: 5px;
   }
   .title {
     font-size: 2.5em;
