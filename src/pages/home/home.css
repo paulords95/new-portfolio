@@ -185,6 +185,9 @@ div.scroll-position {
   .code-think-wrap {
     width: 20%;
   }
+  .scroll-wrap {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
