@@ -83,14 +83,14 @@ h3 {
     width: 90vw;
   }
   .stack-items-wrap svg {
-    padding-inline: 5em;
+    padding-inline: 2em;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .stack-items-wrap {
     width: 90vw;
-    margin-top: 1.5em;
+    margin-top: 4.5em;
   }
   .stack-items-wrap svg {
     padding-inline: 1.5em;
