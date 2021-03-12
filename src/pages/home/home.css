@@ -146,7 +146,6 @@ div.scroll-position {
 @media only screen and (max-width: 1600px) {
   .code-wrap {
     width: 30%;
-    left: 70%;
   }
   .code-think-wrap {
     width: 20%;
@@ -158,7 +157,7 @@ div.scroll-position {
 @media only screen and (max-width: 1300px) {
   .code-wrap {
     width: 30%;
-    left: 68%;
+    left: 70%;
   }
   .code-think-wrap {
     width: 20%;
@@ -170,10 +169,12 @@ div.scroll-position {
 @media only screen and (max-width: 1200px) {
   .code-wrap {
     width: 30%;
-    left: 70%;
+    left: 65%;
+    top: 50%;
   }
   .code-think-wrap {
     width: 20%;
+    left: 10%;
   }
 }
 
