@@ -9,7 +9,7 @@
 .title-stack-wrap {
   display: flex;
   flex-direction: column;
-  margin-top: 5em;
+  margin-top: 2em;
   width: max-content;
   height: max-content;
   margin: 0 auto;
@@ -29,16 +29,16 @@
 
 .stack-items-wrap {
   display: flex;
-  width: 40vw;
+  width: 70vw;
   height: 65vh;
   justify-content: center;
   margin: 0 auto;
   flex-wrap: wrap;
-  margin-top: 6em;
+  margin-top: 8em;
 }
 
 .stack-items-wrap svg {
-  padding-inline: 40px;
+  padding-inline: 7em;
 }
 
 .js-item-container {
@@ -54,8 +54,46 @@ h3 {
   color: #635858;
 }
 
+.js:hover {
+  transform: scale(1.1);
+}
+
+.react-svg:hover {
+  transform: scale(1.1);
+}
+
+.react-native:hover {
+  transform: scale(1.1);
+}
+
+.nodejs:hover {
+  transform: scale(1.1);
+}
+
+.postgresql:hover {
+  transform: scale(1.1);
+}
+
+.css3:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 985px) {
+  .stack-items-wrap {
+    width: 90vw;
+  }
+  .stack-items-wrap svg {
+    padding-inline: 5em;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .stack-items-wrap {
-    width: 80vw;
+    width: 90vw;
+    margin-top: 1.5em;
+  }
+  .stack-items-wrap svg {
+    padding-inline: 3em;
+    padding-top: 2em;
   }
 }

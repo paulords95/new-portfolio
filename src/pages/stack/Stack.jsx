@@ -28,7 +28,7 @@ const StackPage = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
-          className="react-item-container"
+          className="js-item-container item-scale"
         >
           <JavaScript />
           <h3>JavaScript</h3>
