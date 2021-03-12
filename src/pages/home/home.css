@@ -88,6 +88,36 @@ svg {
   background-color: #c0c0ca4d;
 }
 
+.logos-wrap {
+  display: flex;
+  width: max-content;
+  margin: 0 auto;
+  padding-inline: 50px;
+}
+
+.logos-wrap svg {
+  padding: 10px;
+}
+.github {
+  transition: transform 0.2s;
+}
+
+.linkedin {
+  transition: transform 0.2s;
+}
+
+.github:hover {
+  fill: rgb(149, 160, 165);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.linkedin:hover {
+  fill: rgb(149, 160, 165);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 div.scroll-position {
   -webkit-animation: mover 0.5s infinite alternate;
   animation: mover 0.5s infinite alternate;
