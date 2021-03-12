@@ -49,6 +49,11 @@
   height: max-content;
 }
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #635858;
+}
+
 @media only screen and (max-width: 800px) {
   .stack-items-wrap {
     width: 80vw;
