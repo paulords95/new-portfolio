@@ -1,5 +1,46 @@
 .project-card-container {
-  height: 20vh;
-  width: 70vw;
-  background-color: crimson;
+  display: flex;
+  height: 60vh;
+  width: 60vw;
+  background-color: #f1eef5;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 3vh;
+}
+
+.project-info {
+  height: 100%;
+  border-radius: 20px 0px 0px 20px;
+  width: 30%;
+  background-color: #ffff;
+}
+
+.project-screen {
+  height: 100%;
+  border-radius: 0px 20px 20px 0px;
+  width: 70%;
+  background-color: #f1eef5;
+}
+
+@media only screen and (max-width: 800px) {
+  .project-card-container {
+    flex-direction: column;
+    top: -15vh;
+    width: 80vw;
+    overflow-x: hidden;
+  }
+
+  .project-info {
+    height: 30%;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    background-color: #ffff;
+  }
+
+  .project-screen {
+    height: 70%;
+    border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    background-color: #f1eef5;
+  }
 }

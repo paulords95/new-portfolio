@@ -32,7 +32,20 @@ const ProjectsPage = () => {
         </svg>
       </div>
       <div className="projects-body">
-        <ProjectCard />
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          className="project-card-item"
+        >
+          <ProjectCard />
+        </div>
+        <div
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          className="project-card-item"
+        >
+          <ProjectCard />
+        </div>
       </div>
     </div>
   );

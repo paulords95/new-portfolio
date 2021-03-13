@@ -52,8 +52,33 @@
 }
 
 .projects-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #7673f9;
   width: 100vw;
-  height: 800px;
+  height: max-content;
   margin-top: -8em;
+  padding-bottom: 10vh;
+}
+.project-card-item {
+  margin: 0;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  .project-card-item {
+    width: 100%;
+    margin: 0 auto;
+    top: 10vh;
+  }
+  .title-projects-wrap {
+    top: -7em;
+  }
+  .design-log-wrap {
+    top: -7em;
+  }
+  .projects-pg-container {
+    margin-top: 10vh;
+  }
 }
