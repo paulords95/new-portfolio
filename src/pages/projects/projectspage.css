@@ -12,7 +12,6 @@
   height: auto;
   top: 1em;
   margin: 0 auto;
-  width: max-content;
   z-index: 2;
 }
 
@@ -56,8 +55,6 @@
   flex-direction: column;
   justify-content: center;
   background-color: #7673f9;
-  width: 100vw;
-  height: max-content;
   margin-top: -8em;
   padding-bottom: 10vh;
 }

@@ -57,7 +57,7 @@ const Home = () => {
           </FadeIn>
         </div>
       </div>
-      <div data-aos="fade-left" data-aos-duration="1500" className="code-wrap">
+      <div data-aos="fade-right" data-aos-duration="1500" className="code-wrap">
         <CodeSvg />
       </div>
       <div

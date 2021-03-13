@@ -16,9 +16,9 @@ const ProjectsPage = () => {
         <hr />
       </div>
       <div
+        data-aos="fade-right"
+        data-aos-duration="500"
         className="design-log-wrap"
-        data-aos="fade-left"
-        data-aos-duration="1500"
       >
         <DesignLogo />
       </div>
@@ -34,14 +34,14 @@ const ProjectsPage = () => {
       <div className="projects-body">
         <div
           data-aos="fade-right"
-          data-aos-duration="1500"
+          data-aos-duration="500"
           className="project-card-item"
         >
           <ProjectCard />
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-duration="1500"
+          data-aos="fade-right"
+          data-aos-duration="500"
           className="project-card-item"
         >
           <ProjectCard />
