@@ -1,6 +1,6 @@
 body {
-  overflow-x: hidden;
   scrollbar-width: thin;
+  max-width: 100vw;
 }
 
 .App {
@@ -8,6 +8,8 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .page {
