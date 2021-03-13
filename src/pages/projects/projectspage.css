@@ -1,0 +1,53 @@
+.projects-pg-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fbfbfe;
+}
+
+.title-projects-wrap {
+  flex-direction: column;
+  height: auto;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.title-projects-wrap > hr {
+  width: 50%;
+  margin-top: -15px;
+  border-width: 1.5px;
+  background-color: #009320;
+  border-color: #009320;
+}
+.title-projects {
+  font-family: "Montserrat", sans-serif;
+  color: #635858;
+}
+
+.design-log-wrap {
+  position: relative;
+  width: 20%;
+  height: 20%;
+  left: 70%;
+}
+.svg-design {
+  position: relative;
+  width: 80%;
+  height: 80%;
+}
+.svg-wave-wrap {
+  margin-top: -12%;
+}
+
+.wave-2 {
+  margin-top: -25%;
+  width: 100vw;
+  margin: 0;
+}
+
+.projects-body {
+  background-color: #7673f9;
+  width: 100vw;
+  height: 800px;
+}
