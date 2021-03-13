@@ -6,6 +6,8 @@ import "aos/dist/aos.css";
 
 import { ReactComponent as DesignLogo } from "../../assets/svgs/code-design.svg";
 
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+
 const ProjectsPage = () => {
   return (
     <div className="projects-pg-container">
@@ -29,7 +31,9 @@ const ProjectsPage = () => {
           ></path>
         </svg>
       </div>
-      <div className="projects-body"></div>
+      <div className="projects-body">
+        <ProjectCard />
+      </div>
     </div>
   );
 };
