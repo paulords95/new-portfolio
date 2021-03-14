@@ -11,6 +11,10 @@ const InfoPage = () => {
     >
       <div className="info-projects-wrap">
         <h1 className="info-projects">Contato</h1>
+        <hr className="title-line" />
+      </div>
+      <div data-aos="fade-right" data-aos-duration="800" className="info-wrap">
+        <h3 className="email">contato@paulo.dev.br</h3>
         <hr />
       </div>
     </div>

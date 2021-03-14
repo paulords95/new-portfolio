@@ -7,7 +7,6 @@
 }
 
 .info-projects-wrap {
-  flex-direction: column;
   position: relative;
   height: auto;
   top: 1em;
@@ -17,7 +16,7 @@
   margin-top: -8em;
 }
 
-.info-projects-wrap > hr {
+.title-line {
   width: 50%;
   margin-top: -15px;
   border-width: 1.5px;
@@ -27,6 +26,23 @@
 .info-projects {
   font-family: "Montserrat", sans-serif;
   color: #635858;
+}
+
+.info-wrap {
+  width: 50%;
+  height: max-content;
+  margin: 0 auto;
+}
+
+.info-wrap > hr {
+  border-width: 1px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.email {
+  margin-top: 20vh;
+  color: white;
 }
 
 @media only screen and (max-width: 800px) {
