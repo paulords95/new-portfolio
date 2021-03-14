@@ -6,6 +6,7 @@
   border-radius: 20px;
   margin: 0 auto;
   margin-top: 3vh;
+  box-shadow: 5px 5px 5px 5px #1816163f;
 }
 
 .project-info {
