@@ -1,0 +1,36 @@
+.infopage-container {
+  height: 40vh;
+  width: 98vw;
+  background-color: #7673f9;
+  margin-top: 100vh;
+  border-radius: 0px 15vh 0px 0px;
+}
+
+.info-projects-wrap {
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  top: 1em;
+  width: max-content;
+  margin: 0 auto;
+  z-index: 2;
+  margin-top: -8em;
+}
+
+.info-projects-wrap > hr {
+  width: 50%;
+  margin-top: -15px;
+  border-width: 1.5px;
+  background-color: #009320;
+  border-color: #009320;
+}
+.info-projects {
+  font-family: "Montserrat", sans-serif;
+  color: #635858;
+}
+
+@media only screen and (max-width: 800px) {
+  .infopage-container {
+    margin-top: 60vh;
+  }
+}

@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./pages/home/Home";
 import StackPage from "./pages/stack/Stack";
 import ProjectsPage from "./pages/projects/ProjectsPage";
+import InfoPage from "./pages/InfoPage/InfoPage";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <StackPage />
       <ProjectsPage />
+      <InfoPage />
     </div>
   );
 }

@@ -26,8 +26,8 @@
 @media only screen and (max-width: 800px) {
   .project-card-container {
     flex-direction: column;
-    top: -15vh;
-    width: 80vw;
+    top: 0vh;
+    width: 90vw;
     overflow-x: hidden;
   }
 
