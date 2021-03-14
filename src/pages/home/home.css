@@ -88,11 +88,24 @@ svg {
   background-color: #c0c0ca4d;
 }
 
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 44.7%;
+  top: 35%;
+  z-index: 10;
+  transition: opacity 0.01s, right 1s, transform 1s, bottom 1s;
+  padding: 10px;
+  border-radius: 10px;
+}
 .logos-wrap {
   display: flex;
-  width: max-content;
-  margin: 0 auto;
-  padding-inline: 50px;
+  flex-direction: row;
+  z-index: 10;
+  transition: all 1s;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .logos-wrap svg {
@@ -100,10 +113,13 @@ svg {
 }
 .github {
   transition: transform 0.2s;
+
+  z-index: 5;
 }
 
 .linkedin {
   transition: transform 0.2s;
+  z-index: 5;
 }
 
 .github:hover {
