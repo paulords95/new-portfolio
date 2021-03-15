@@ -20,13 +20,15 @@ const Home = () => {
       document.body.scrollTop > 50 ||
       document.documentElement.scrollTop > 50
     ) {
-      logoContainer.current.style.right = "1%";
-      setTimeout(() => {
-        logoWrap.current.style.flexDirection = "column";
-      }, 900);
+      logoWrap.current.style.marginLeft = "90%";
+      logoWrap.current.style.marginTop = "48vh";
+      logoWrap.current.style.width = "80px";
+      logoWrap.current.style.height = "80px";
     } else {
-      logoContainer.current.style.right = "44.7%";
-      logoWrap.current.style.flexDirection = "row";
+      logoWrap.current.style.marginLeft = "0%";
+      logoWrap.current.style.marginTop = "0%";
+      logoWrap.current.style.width = "40%";
+      logoWrap.current.style.height = "40%";
     }
   };
 

@@ -1,6 +1,6 @@
 .infopage-container {
   height: 40vh;
-  width: 98vw;
+  width: 100vw;
   background-color: #7673f9;
   margin-top: 100vh;
   border-radius: 0px 15vh 0px 0px;
@@ -43,6 +43,7 @@
 .email {
   margin-top: 20vh;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media only screen and (max-width: 800px) {
