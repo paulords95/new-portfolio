@@ -92,12 +92,12 @@ svg {
   display: flex;
   position: fixed;
   top: 35%;
-  left: 3vw;
   z-index: 10;
-  transition: all 1s;
-  padding: 10px;
+  transition: all 0.8s;
   justify-content: center;
-  width: 97%;
+  width: 100%;
+
+  height: max-content;
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -106,10 +106,9 @@ svg {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 50%;
+  height: max-content;
   width: 50%;
-  transition: all 1s;
-  padding: 10px;
+  transition: all 0.8s;
   border-radius: 10px;
 }
 
@@ -117,13 +116,12 @@ svg {
   padding: 10px;
 }
 .github {
-  transition: transform 0.2s;
-
+  transition: transform 0.8s;
   z-index: 5;
 }
 
 .linkedin {
-  transition: transform 0.2s;
+  transition: transform 0.8s;
   z-index: 5;
 }
 

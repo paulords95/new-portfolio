@@ -14,21 +14,23 @@ import "./home.css";
 const Home = () => {
   const logoContainer = useRef(null);
   const logoWrap = useRef(null);
+  const github = useRef(null);
+  const linkedin = useRef(null);
 
   window.onscroll = function () {
     if (
       document.body.scrollTop > 50 ||
       document.documentElement.scrollTop > 50
     ) {
-      logoWrap.current.style.marginLeft = "90%";
-      logoWrap.current.style.marginTop = "48vh";
-      logoWrap.current.style.width = "80px";
-      logoWrap.current.style.height = "80px";
+      logoContainer.current.style.marginLeft = "47%";
+      logoContainer.current.style.transform = "rotate(90deg";
+      github.current.style.transform = "rotate(-90deg";
+      linkedin.current.style.transform = "rotate(-90deg";
     } else {
-      logoWrap.current.style.marginLeft = "0%";
-      logoWrap.current.style.marginTop = "0%";
-      logoWrap.current.style.width = "40%";
-      logoWrap.current.style.height = "40%";
+      logoContainer.current.style.marginLeft = "0%";
+      logoContainer.current.style.transform = "rotate(0deg";
+      github.current.style.transform = "rotate(0deg";
+      linkedin.current.style.transform = "rotate(0deg";
     }
   };
 
@@ -47,6 +49,7 @@ const Home = () => {
               win.focus();
             }}
             className="github"
+            ref={github}
             xmlns="http://www.w3.org/2000/svg"
             width="40"
             height="40"
@@ -61,6 +64,7 @@ const Home = () => {
               win.focus();
             }}
             className="linkedin"
+            ref={linkedin}
             xmlns="http://www.w3.org/2000/svg"
             width="40"
             height="40"
