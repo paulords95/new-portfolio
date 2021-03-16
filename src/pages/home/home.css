@@ -103,20 +103,23 @@ svg {
   height: max-content;
   border-radius: 10px;
   margin: 10px auto;
+ 
 }
 .logos-wrap {
-  z-index: 10;
+  margin-left: 23px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   height: max-content;
-  width: 50%;
+  width: max-content;
   transition: all 0.8s;
   border-radius: 10px;
+  z-index: 10;
 }
 
 .logos-wrap svg {
   padding: 10px;
+
 }
 .github {
   transition: transform 0.8s;
@@ -209,7 +212,7 @@ div.scroll-position {
   .code-think-wrap {
     width: 20%;
   }
-  .scroll-wrap {
+  .scroll-svg {
     display: none;
   }
 }
@@ -246,5 +249,12 @@ div.scroll-position {
 
   .home-wrap {
     height: 90vh;
+  }
+}
+
+
+@media only screen and (max-height: 750px) {
+  .logo-container {
+    margin-top: 20%;
   }
 }

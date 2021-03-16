@@ -29,9 +29,12 @@
 }
 
 .info-wrap {
-  width: 50%;
-  height: max-content;
+  position: relative;
+  width: max-content;
+  height: 50px;
+  top: 15vh;
   margin: 0 auto;
+
 }
 
 .info-wrap > hr {
@@ -41,7 +44,7 @@
 }
 
 .email {
-  margin-top: 20vh;
+
   color: white;
   font-family: "Montserrat", sans-serif;
 }
