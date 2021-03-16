@@ -14,18 +14,21 @@ const Home = () => {
   const logoWrap = useRef(null);
   const github = useRef(null);
   const linkedin = useRef(null);
+  const scrollLogo = useRef(null);
 
   window.onscroll = function () {
     if (
-      document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50
+      document.body.scrollTop > 10 ||
+      document.documentElement.scrollTop > 10
     ) {
+      scrollLogo.current.style.opacity = "0";
       logoContainer.current.style.marginLeft = "46%";
       logoContainer.current.style.transform = "rotate(90deg";
       logoContainer.current.style.top = "85%";
       github.current.style.transform = "rotate(-90deg";
       linkedin.current.style.transform = "rotate(-90deg";
     } else {
+      scrollLogo.current.style.opacity = "1";
       logoContainer.current.style.marginLeft = "0%";
       logoContainer.current.style.top = "35%";
       logoContainer.current.style.transform = "rotate(0deg";
@@ -99,14 +102,7 @@ const Home = () => {
       >
         <CodeThink />
       </div>
-      <div className="scroll-wrap">
-        <div
-          className="scroll-position"
-          style={{ position: "absolute", bottom: "3em", zIndex: 3, width: 30 }}
-        >
-          <ScrollSvg />
-        </div>
-      </div>
+
       <div className="wave">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -119,6 +115,9 @@ const Home = () => {
             d="M0,64L48,58.7C96,53,192,43,288,64C384,85,480,139,576,181.3C672,224,768,256,864,250.7C960,245,1056,203,1152,192C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
           ></path>
         </svg>
+        <div ref={scrollLogo} className="scroll-position">
+          <ScrollSvg />
+        </div>
       </div>
     </div>
   );

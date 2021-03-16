@@ -69,22 +69,26 @@ svg {
   left: 5em;
 }
 
-.scroll-wrap {
-  width: 30px;
-  height: 30px;
-  margin: 0 auto;
-}
 
-.scroll-position {
-  bottom: 3em;
-  z-index: 3;
+.scroll-svg {
   width: 30px;
-  height: 40px;
   padding: 10px;
   border-radius: 50%;
 }
 
-.scroll-position:hover {
+.scroll-position {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  z-index: 10;
+  bottom: 6vh;
+  margin: 0 auto;
+  opacity: 1;
+  transition: all 0.5s;
+  width: 100vw;
+}
+
+.scroll-svg:hover {
   background-color: #c0c0ca4d;
 }
 
@@ -98,14 +102,13 @@ svg {
   width: 100%;
   height: max-content;
   border-radius: 10px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 .logos-wrap {
   z-index: 10;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 20px;
   height: max-content;
   width: 50%;
   transition: all 0.8s;
@@ -118,6 +121,7 @@ svg {
 .github {
   transition: transform 0.8s;
   z-index: 5;
+  
 }
 
 .linkedin {
