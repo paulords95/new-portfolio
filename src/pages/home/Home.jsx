@@ -1,11 +1,9 @@
 import React, { useEffect, useRef } from "react";
+import { useBottomScrollListener } from "react-bottom-scroll-listener";
 import { ReactComponent as CodeSvg } from "../../assets/svgs/programming.svg";
 import { ReactComponent as CodeThink } from "../../assets/svgs/codeThink.svg";
 import { ReactComponent as ScrollSvg } from "../../assets/svgs/scroll.svg";
 
-import { Link, animateScroll as scroll } from "react-scroll";
-
-import FadeIn from "react-fade-in";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -22,17 +20,27 @@ const Home = () => {
       document.body.scrollTop > 50 ||
       document.documentElement.scrollTop > 50
     ) {
-      logoContainer.current.style.marginLeft = "47%";
+      logoContainer.current.style.marginLeft = "46%";
       logoContainer.current.style.transform = "rotate(90deg";
+      logoContainer.current.style.top = "85%";
       github.current.style.transform = "rotate(-90deg";
       linkedin.current.style.transform = "rotate(-90deg";
     } else {
       logoContainer.current.style.marginLeft = "0%";
+      logoContainer.current.style.top = "35%";
       logoContainer.current.style.transform = "rotate(0deg";
       github.current.style.transform = "rotate(0deg";
       linkedin.current.style.transform = "rotate(0deg";
     }
   };
+
+  useBottomScrollListener(() => {
+    logoContainer.current.style.marginLeft = "0%";
+    logoContainer.current.style.top = "78%";
+    logoContainer.current.style.transform = "rotate(0deg";
+    github.current.style.transform = "rotate(0deg";
+    linkedin.current.style.transform = "rotate(0deg";
+  });
 
   useEffect(() => {
     Aos.init({ duration: 3000 });

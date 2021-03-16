@@ -96,7 +96,6 @@ svg {
   transition: all 0.8s;
   justify-content: center;
   width: 100%;
-
   height: max-content;
   border-radius: 10px;
   margin: 0 auto;
@@ -106,6 +105,7 @@ svg {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 20px;
   height: max-content;
   width: 50%;
   transition: all 0.8s;
