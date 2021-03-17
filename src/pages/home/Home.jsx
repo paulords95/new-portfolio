@@ -21,10 +21,23 @@ const Home = () => {
       document.body.scrollTop > 10 ||
       document.documentElement.scrollTop > 10
     ) {
+      if (window.innerWidth < 330) {
+        logoContainer.current.style.marginLeft = "40%";
+        logoContainer.current.style.top = "65vh";
+      } else if (window.innerWidth < 420) {
+        logoContainer.current.style.marginLeft = "40%";
+        logoContainer.current.style.top = "67vh";
+      } else if (window.innerWidth < 600 && window.innerHeight < 340) {
+        logoContainer.current.style.marginLeft = "45%";
+        logoContainer.current.style.top = "80vh";
+      } else {
+        logoContainer.current.style.top = "85%";
+        logoContainer.current.style.marginLeft = "43%";
+      }
       scrollLogo.current.style.opacity = "0";
-      logoContainer.current.style.marginLeft = "46%";
+
       logoContainer.current.style.transform = "rotate(90deg";
-      logoContainer.current.style.top = "85%";
+
       github.current.style.transform = "rotate(-90deg";
       linkedin.current.style.transform = "rotate(-90deg";
     } else {
@@ -38,8 +51,14 @@ const Home = () => {
   };
 
   useBottomScrollListener(() => {
+    if (window.innerHeight < 830 && window.innerWidth < 650) {
+      logoContainer.current.style.top = "75vh";
+    } else if (window.innerHeight < 830) {
+      logoContainer.current.style.top = "68%";
+    } else if (window.innerWidth < 600) {
+      logoContainer.current.style.top = "60%";
+    }
     logoContainer.current.style.marginLeft = "0%";
-    logoContainer.current.style.top = "78%";
     logoContainer.current.style.transform = "rotate(0deg";
     github.current.style.transform = "rotate(0deg";
     linkedin.current.style.transform = "rotate(0deg";

@@ -10,7 +10,7 @@ body {
   height: 100vh;
   position: relative;
   width: 100vw;
-  min-height: 800px;
+  min-height: 400px;
 }
 
 .home-top {
@@ -252,5 +252,14 @@ div.scroll-position {
 @media only screen and (max-height: 750px) {
   .logo-container {
     margin-top: 20%;
+  }
+}
+
+
+
+
+@media only screen and (max-height: 600px) {
+  .logo-container {
+    margin-top: 32%;
   }
 }

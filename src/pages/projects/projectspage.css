@@ -141,3 +141,34 @@
     margin-top: 90vh;
   }
 }
+
+
+@media only screen and (max-height: 900px) {
+  .projects-pg-container {
+    margin-top: -10vh;
+  }
+
+  .projects-body {
+    margin-top: -37%;
+  }
+}
+
+
+@media only screen and (max-height: 700px) {
+  .projects-pg-container {
+    margin-top: -15vh;
+  }
+}
+
+@media only screen and (max-height: 570px) {
+  .projects-pg-container {
+    margin-top: 75vh;
+  }
+  .projects-body {
+    margin-top: -40%;
+  }
+
+  .title-projects-wrap {
+    top: -7em;
+  }
+}
