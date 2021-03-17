@@ -5,6 +5,7 @@
   width: 100vw;
   background-color: #fbfbfe;
   justify-content: center;
+  min-height: 800px;
 }
 
 .title-stack-wrap {

@@ -5,6 +5,7 @@
   height: 100vh;
   background-color: #fbfbfe;
   position: relative;
+  min-height: 800px;
 }
 
 .title-projects-wrap {
@@ -83,7 +84,6 @@
   .projects-body {
     margin-top: -13%;
   }
- 
 }
 
 @media only screen and (max-width: 1600px) {
@@ -96,9 +96,7 @@
   .design-log-wrap {
     top: -7em;
   }
-
 }
-
 
 @media only screen and (max-width: 1200px) {
   .title-projects-wrap {
@@ -114,11 +112,9 @@
   .design-log-wrap {
     top: -7em;
   }
-
 }
 
 @media only screen and (max-width: 1000px) {
-
   .projects-body {
     margin-top: -20%;
   }
@@ -126,37 +122,22 @@
   .design-log-wrap {
     top: -7em;
   }
-
 }
 
 @media only screen and (max-width: 640px) {
-
   .projects-body {
     margin-top: -27%;
   }
-
-
 }
-
-
-
 
 @media only screen and (max-width: 520px) {
-
   .projects-body {
     margin-top: -27%;
   }
-
-
 }
 
-
 @media only screen and (max-width: 373px) {
-
   .projects-pg-container {
     margin-top: 90vh;
   }
-
-
 }
-
