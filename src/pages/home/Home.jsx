@@ -51,13 +51,8 @@ const Home = () => {
   };
 
   useBottomScrollListener(() => {
-    if (window.innerHeight < 830 && window.innerWidth < 650) {
-      logoContainer.current.style.top = "75vh";
-    } else if (window.innerHeight < 830) {
-      logoContainer.current.style.top = "68%";
-    } else if (window.innerWidth < 600) {
-      logoContainer.current.style.top = "60%";
-    }
+    logoContainer.current.style.top = "75%";
+
     logoContainer.current.style.marginLeft = "0%";
     logoContainer.current.style.transform = "rotate(0deg";
     github.current.style.transform = "rotate(0deg";
