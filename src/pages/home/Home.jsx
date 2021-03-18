@@ -35,9 +35,7 @@ const Home = () => {
         logoContainer.current.style.marginLeft = "43%";
       }
       scrollLogo.current.style.opacity = "0";
-
       logoContainer.current.style.transform = "rotate(90deg";
-
       github.current.style.transform = "rotate(-90deg";
       linkedin.current.style.transform = "rotate(-90deg";
     } else {
@@ -51,7 +49,17 @@ const Home = () => {
   };
 
   useBottomScrollListener(() => {
-    logoContainer.current.style.top = "75%";
+    if (window.innerHeight < 730) {
+      logoContainer.current.style.top = "45%";
+    } else if (window.innerHeight < 600) {
+      logoContainer.current.style.top = "25%";
+    } else if (window.innerHeight < 450) {
+      logoContainer.current.style.top = "5%";
+    } else if (window.innerHeight < 370) {
+      logoContainer.current.style.top = "-35vh";
+    } else {
+      logoContainer.current.style.top = "75%";
+    }
 
     logoContainer.current.style.marginLeft = "0%";
     logoContainer.current.style.transform = "rotate(0deg";
