@@ -1,10 +1,10 @@
 .stack-page-container {
   padding-top: 50px;
-  height: 100%;
+  height: max-content;
   width: 100vw;
+
   background-color: #fbfbfe;
   justify-content: center;
-  min-height: 800px;
 }
 
 .title-stack-wrap {
@@ -80,9 +80,6 @@ h3 {
 }
 
 @media only screen and (max-width: 985px) {
-  .stack-page-container {
-    padding-bottom: 10%;
-  }
   .stack-items-wrap {
     width: 90vw;
   }
@@ -99,17 +96,5 @@ h3 {
   .stack-items-wrap svg {
     padding-inline: 1.5em;
     padding-top: 2em;
-  }
-}
-
-@media only screen and (max-height: 900px) {
-  .stack-page-container {
-    padding-bottom: 60%;
-  }
-}
-
-@media only screen and (max-height: 600px) {
-  .stack-page-container {
-    padding-bottom: 90%;
   }
 }

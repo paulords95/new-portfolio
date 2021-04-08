@@ -3,7 +3,6 @@
   flex-direction: column;
   width: 100vw;
   height: 100%;
-
   min-height: 800px;
 }
 
@@ -33,6 +32,7 @@
   height: 20%;
   left: 70%;
   z-index: 2;
+  margin-top: -15%;
 }
 .svg-design {
   position: relative;
@@ -55,11 +55,21 @@
   flex-direction: column;
   justify-content: center;
   background-color: #7673f9;
-  padding-bottom: 10rem;
+  padding-bottom: 8rem;
   width: 100%;
   margin-top: -5%;
 }
 .project-card-item {
   margin: 0;
   padding: 0px;
+}
+
+.svg-bottom-wrap {
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .projects-pg-container {
+    margin-top: 20%;
+  }
 }

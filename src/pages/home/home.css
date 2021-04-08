@@ -249,17 +249,8 @@ div.scroll-position {
   }
 }
 
-@media only screen and (max-height: 750px) {
+@media only screen and (max-height: 800px) {
   .logo-container {
-    margin-top: 20%;
-  }
-}
-
-
-
-
-@media only screen and (max-height: 600px) {
-  .logo-container {
-    margin-top: 32%;
+    display: none;
   }
 }

@@ -5,7 +5,7 @@
   background-color: #7673f9;
   padding: 40px;
   border-radius: 0px 15vh 0px 0px;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .info-projects-wrap {
@@ -15,7 +15,7 @@
   width: max-content;
   margin: 0 auto;
   z-index: 2;
-  margin-top: -9em;
+  margin-top: -8.5em;
 }
 
 .title-line {
@@ -34,7 +34,7 @@
   position: relative;
   width: max-content;
   height: 50px;
-  top: 5vh;
+  top: 40%;
   margin: 0 auto;
 }
 
@@ -42,7 +42,7 @@
   border-width: 1px;
   background-color: #ffffff;
   border-color: #ffffff;
-  width: 70vw;
+  width: 100%;
 }
 
 .email {

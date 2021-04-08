@@ -21,19 +21,9 @@ const Home = () => {
       document.body.scrollTop > 10 ||
       document.documentElement.scrollTop > 10
     ) {
-      if (window.innerWidth < 330) {
-        logoContainer.current.style.marginLeft = "40%";
-        logoContainer.current.style.top = "65vh";
-      } else if (window.innerWidth < 420) {
-        logoContainer.current.style.marginLeft = "40%";
-        logoContainer.current.style.top = "67vh";
-      } else if (window.innerWidth < 600 && window.innerHeight < 340) {
-        logoContainer.current.style.marginLeft = "45%";
-        logoContainer.current.style.top = "80vh";
-      } else {
-        logoContainer.current.style.top = "85%";
-        logoContainer.current.style.marginLeft = "43%";
-      }
+      logoContainer.current.style.top = "85%";
+      logoContainer.current.style.marginLeft = "43%";
+
       scrollLogo.current.style.opacity = "0";
       logoContainer.current.style.transform = "rotate(90deg";
       github.current.style.transform = "rotate(-90deg";
