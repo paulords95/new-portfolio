@@ -17,9 +17,6 @@ const InfoPage = () => {
         <h3 className="email">contato@paulo.dev.br</h3>
         <hr />
       </div>
-      <div className="year-wrap">
-        <h4>2021</h4>
-      </div>
     </div>
   );
 };

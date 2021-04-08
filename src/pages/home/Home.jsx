@@ -49,17 +49,7 @@ const Home = () => {
   };
 
   useBottomScrollListener(() => {
-    if (window.innerHeight < 730) {
-      logoContainer.current.style.top = "45%";
-    } else if (window.innerHeight < 600) {
-      logoContainer.current.style.top = "25%";
-    } else if (window.innerHeight < 450) {
-      logoContainer.current.style.top = "5%";
-    } else if (window.innerHeight < 370) {
-      logoContainer.current.style.top = "-35vh";
-    } else {
-      logoContainer.current.style.top = "75%";
-    }
+    logoContainer.current.style.top = "85%";
 
     logoContainer.current.style.marginLeft = "0%";
     logoContainer.current.style.transform = "rotate(0deg";

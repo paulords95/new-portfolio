@@ -15,7 +15,7 @@
   width: max-content;
   margin: 0 auto;
   z-index: 2;
-  margin-top: -8em;
+  margin-top: -9em;
 }
 
 .title-line {
@@ -34,7 +34,7 @@
   position: relative;
   width: max-content;
   height: 50px;
-  top: 15vh;
+  top: 5vh;
   margin: 0 auto;
 }
 
