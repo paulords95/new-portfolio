@@ -73,3 +73,9 @@
     margin-top: 20%;
   }
 }
+
+@media only screen and (max-height: 800px) {
+  .projects-pg-container {
+    margin-top: 70%;
+  }
+}

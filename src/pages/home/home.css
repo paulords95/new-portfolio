@@ -249,7 +249,7 @@ div.scroll-position {
   }
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 600px) {
   .logo-container {
     display: none;
   }
