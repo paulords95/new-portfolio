@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
-  background-color: #fbfbfe;
-  position: relative;
+  height: 100%;
+
   min-height: 800px;
 }
 
@@ -12,7 +11,6 @@
   flex-direction: column;
   position: relative;
   height: auto;
-  top: 1em;
   margin: 0 auto;
   z-index: 2;
 }
@@ -26,7 +24,7 @@
 }
 .title-projects {
   font-family: "Montserrat", sans-serif;
-  color: #635858;
+  color: #a39b9b;
 }
 
 .design-log-wrap {
@@ -43,8 +41,7 @@
 }
 .svg-wave-wrap {
   position: relative;
-  margin-top: -12%;
-  bottom: 8em;
+  margin-top: -2em;
 }
 
 .wave-2 {
@@ -58,117 +55,11 @@
   flex-direction: column;
   justify-content: center;
   background-color: #7673f9;
-  margin-top: -15em;
+  padding-bottom: 10rem;
+  width: 100%;
+  margin-top: -5%;
 }
 .project-card-item {
   margin: 0;
   padding: 0px;
-}
-
-@media only screen and (max-width: 800px) {
-  .project-card-item {
-    width: 100%;
-    margin: 0 auto;
-    top: 10vh;
-  }
-  .title-projects-wrap {
-    top: -7em;
-  }
-  .design-log-wrap {
-    top: -7em;
-  }
-  .projects-pg-container {
-    margin-top: 15vh;
-  }
-
-  .projects-body {
-    margin-top: -13%;
-  }
-}
-
-@media only screen and (max-width: 1600px) {
-  .title-projects-wrap {
-    top: -5em;
-  }
-  .projects-body {
-    margin-top: -15%;
-  }
-  .design-log-wrap {
-    top: -7em;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .title-projects-wrap {
-    top: -5em;
-  }
-  .projects-body {
-    margin-top: -17%;
-  }
-
-  .projects-pg-container {
-    margin-top: 12vh;
-  }
-  .design-log-wrap {
-    top: -7em;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .projects-body {
-    margin-top: -20%;
-  }
-
-  .design-log-wrap {
-    top: -7em;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-  .projects-body {
-    margin-top: -27%;
-  }
-}
-
-@media only screen and (max-width: 520px) {
-  .projects-body {
-    margin-top: -27%;
-  }
-}
-
-@media only screen and (max-width: 373px) {
-  .projects-pg-container {
-    margin-top: 90vh;
-  }
-}
-
-
-@media only screen and (max-height: 900px) {
-  .projects-pg-container {
-    margin-top: -10vh;
-  }
-
-  .projects-body {
-    margin-top: -37%;
-  }
-}
-
-
-@media only screen and (max-height: 700px) {
-  .projects-pg-container {
-    margin-top: -15vh;
-  }
-}
-
-@media only screen and (max-height: 570px) {
-  .projects-pg-container {
-    margin-top: 75vh;
-  }
-  .projects-body {
-    margin-top: -40%;
-  }
-
-  .title-projects-wrap {
-    top: -7em;
-  }
 }

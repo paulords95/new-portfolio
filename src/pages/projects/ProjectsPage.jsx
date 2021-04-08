@@ -15,13 +15,6 @@ const ProjectsPage = () => {
         <h1 className="title-projects">Meus Projetos</h1>
         <hr />
       </div>
-      <div
-        data-aos="fade-right"
-        data-aos-duration="500"
-        className="design-log-wrap"
-      >
-        <DesignLogo />
-      </div>
       <div className="svg-wave-wrap">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
@@ -31,10 +24,18 @@ const ProjectsPage = () => {
           ></path>
         </svg>
       </div>
+
       <div className="projects-body">
         <div
           data-aos="fade-right"
           data-aos-duration="500"
+          className="design-log-wrap"
+        >
+          <DesignLogo />
+        </div>
+        <div
+          data-aos="fade-right"
+          data-aos-duration="500"
           className="project-card-item"
         >
           <ProjectCard />
@@ -46,18 +47,6 @@ const ProjectsPage = () => {
         >
           <ProjectCard />
         </div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1420 320"
-          preserveAspectRatio="none"
-        >
-          <path
-            class="bottom-wave"
-            fill="#fbfbfe"
-            fill-opacity="1"
-            d="M0,64L48,58.7C96,53,192,43,288,64C384,85,480,139,576,181.3C672,224,768,256,864,250.7C960,245,1056,203,1152,192C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          ></path>
-        </svg>
       </div>
     </div>
   );
