@@ -21,7 +21,7 @@ const Home = () => {
       document.body.scrollTop > 10 ||
       document.documentElement.scrollTop > 10
     ) {
-      logoContainer.current.style.top = "85%";
+      logoContainer.current.style.marginTop = "85%";
       logoContainer.current.style.marginLeft = "43%";
 
       scrollLogo.current.style.opacity = "0";
@@ -31,7 +31,7 @@ const Home = () => {
     } else {
       scrollLogo.current.style.opacity = "1";
       logoContainer.current.style.marginLeft = "0%";
-      logoContainer.current.style.top = "35%";
+      logoContainer.current.style.marginTop = "10%";
       logoContainer.current.style.transform = "rotate(0deg";
       github.current.style.transform = "rotate(0deg";
       linkedin.current.style.transform = "rotate(0deg";
@@ -39,7 +39,7 @@ const Home = () => {
   };
 
   useBottomScrollListener(() => {
-    logoContainer.current.style.top = "85%";
+    logoContainer.current.style.marginTop = "85%";
 
     logoContainer.current.style.marginLeft = "0%";
     logoContainer.current.style.transform = "rotate(0deg";
