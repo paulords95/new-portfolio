@@ -2,23 +2,22 @@ import React from "react";
 import Card from "@material-ui/core/Card";
 import { CardMedia } from "@material-ui/core";
 
-import "./ProjectCard.css";
+import "./CardColumn.css";
 
-const ProjectCard = () => {
+const CardColumn = () => {
   return (
-    <div className="project-card-container">
-      <div className="project-info"></div>
-      <div className="project-screen">
-        <Card>
+    <div className="column-card-container">
+      <div className="column-info"></div>
+      <div className="column-screen">
+        <Card className="card-wrap">
           <CardMedia
             className="media"
             image="https://raw.githubusercontent.com/paulords95/novadax-app/main/screenshots/Screenshot_20210409-150539_Dax%20API.jpg"
           />
         </Card>
-        aaa
       </div>
     </div>
   );
 };
 
-export default ProjectCard;
+export default CardColumn;

@@ -1,0 +1,33 @@
+.column-card-container {
+  display: flex;
+  width: 90vw;
+  background-color: #f1eef5;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 3vh;
+  box-shadow: 5px 5px 5px 5px #1816163f;
+}
+
+.column-info {
+  height: 100%;
+  border-radius: 20px 0px 0px 20px;
+  width: 30%;
+  background-color: #ffff;
+}
+
+.column-screen {
+  height: 100%;
+  border-radius: 0px 20px 20px 0px;
+  width: 100%;
+  background-color: #f1eef5;
+  margin: 0 auto;
+}
+
+.media {
+  width: 40%;
+}
+.card-wrap {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}

@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import { ReactComponent as DesignLogo } from "../../assets/svgs/code-design.svg";
 
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import CardColumn from "../../components/CardColumn/CardColumn";
 
 const ProjectsPage = () => {
   return (
@@ -36,9 +37,9 @@ const ProjectsPage = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="500"
-          className="project-card-item"
+          className="column-card-item"
         >
-          <ProjectCard />
+          <CardColumn />
         </div>
         <div
           data-aos="fade-right"

@@ -46,12 +46,12 @@
   }
 }
 
-
+.media {
+  height: 500px;
+  width: 500px;
+}
 @media only screen and (max-width: 1200px) {
   .project-card-container {
-  
- 
     width: 90vw;
-
   }
 }
