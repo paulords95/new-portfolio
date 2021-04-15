@@ -8,13 +8,6 @@ import "./CardColumn.css";
 const CardColumn = () => {
   return (
     <div className="column-card-container">
-      <div className="column-info">
-        <h3>Dax App - React Native, Node.js e PostgreSQL</h3>
-        <p>
-          Monitora preço e regitra em banco dados PostgreSQL, faz consultas na
-          API da carteira da NovaDAX e calcula porcentagem e valor de patrimônio
-        </p>
-      </div>
       <div className="column-screen">
         <Carousel
           wrapAround
@@ -44,6 +37,13 @@ const CardColumn = () => {
             src="https://raw.githubusercontent.com/paulords95/novadax-app/main/screenshots/Screenshot_20210409-150551_Dax%20API.jpg"
           />
         </Carousel>
+      </div>
+      <div className="column-info">
+        <h3>Dax App - React Native, Node.js e PostgreSQL</h3>
+        <p>
+          Monitora preço e regitra em banco dados PostgreSQL, faz consultas na
+          API da carteira da NovaDAX e calcula porcentagem e valor de patrimônio
+        </p>
       </div>
     </div>
   );
