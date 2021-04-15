@@ -54,6 +54,7 @@
   position: relative;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: #7673f9;
   padding-bottom: 8rem;
   width: 100%;
@@ -64,8 +65,21 @@
   padding: 0px;
 }
 
+.column-card-item {
+  padding: 0px;
+  height: 60%;
+  width: 50vw;
+}
+
 .svg-bottom-wrap {
   transform: rotate(180deg);
+}
+@media only screen and (max-width: 800px) {
+  .column-card-item {
+    padding: 0px;
+    height: 50%;
+    width: 100vw;
+  }
 }
 
 @media only screen and (max-width: 600px) {

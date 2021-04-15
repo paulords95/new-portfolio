@@ -1,7 +1,11 @@
 .column-card-container {
   display: flex;
-  width: 90vw;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
   background-color: #f1eef5;
+  justify-content: center;
+  align-items: center;
   border-radius: 20px;
   margin: 0 auto;
   margin-top: 3vh;
@@ -9,25 +13,26 @@
 }
 
 .column-info {
-  height: 100%;
-  border-radius: 20px 0px 0px 20px;
-  width: 30%;
+  height: 30%;
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
   background-color: #ffff;
+  font-family: "Montserrat", sans-serif;
 }
 
 .column-screen {
-  height: 100%;
   border-radius: 0px 20px 20px 0px;
   width: 100%;
+  height: 60%;
   background-color: #f1eef5;
   margin: 0 auto;
 }
 
-.media {
-  width: 40%;
+.media-column {
+  height: 100%;
 }
 .card-wrap {
   position: relative;
-  width: 100%;
+  width: 75%;
   margin: 0 auto;
 }
