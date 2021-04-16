@@ -1,15 +1,16 @@
 .column-card-container {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  height: 80%;
-  background-color: #f1eef5;
+  width: 50%;
+  height: 100%;
+  background-color: #1816163f;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
   margin: 0 auto;
   margin-top: 3vh;
-  box-shadow: 5px 5px 5px 5px #1816163f;
+  box-shadow: 1px 1px 1px 1px #1816163f;
+  padding: 5px;
 }
 
 .column-info {
@@ -18,24 +19,24 @@
   justify-content: center;
   align-items: center;
   height: 30%;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 2px 2px;
   width: 100%;
-  background-color: rgb(209, 209, 241);
   font-family: "Montserrat", sans-serif;
 }
 
 .column-info > h3 {
-  color: rgb(105, 100, 100);
+  color: rgb(255, 253, 253);
 }
 
 .column-info > p {
   font-size: 12px;
   width: 80%;
-  padding: 15px;
+  padding: 3px;
+  color: rgb(180, 206, 206);
 }
 
 .column-screen {
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 2px 2px 0px;
   width: 100%;
   height: 60%;
   background-color: #f1eef5;
@@ -49,4 +50,10 @@
   position: relative;
   width: 75%;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 900px) {
+  .column-card-container {
+    width: 30%;
+  }
 }

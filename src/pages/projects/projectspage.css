@@ -63,12 +63,13 @@
 .project-card-item {
   margin: 0;
   padding: 0px;
+  margin-top: 150px;
 }
 
 .column-card-item {
   padding: 0px;
-  height: 60%;
-  width: 50vw;
+  height: 30%;
+  width: 80%;
 }
 
 .svg-bottom-wrap {
