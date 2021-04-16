@@ -107,6 +107,7 @@ svg {
 .logos-wrap {
   margin-left: 23px;
   display: flex;
+  position: relative;
   justify-content: center;
   flex-wrap: wrap;
   height: max-content;
@@ -114,6 +115,7 @@ svg {
   transition: all 0.8s;
   border-radius: 10px;
   z-index: 10;
+  margin-top: 20px;
 }
 
 .logos-wrap svg {

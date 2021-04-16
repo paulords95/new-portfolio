@@ -21,8 +21,8 @@ const Home = () => {
       document.body.scrollTop > 10 ||
       document.documentElement.scrollTop > 10
     ) {
-      logoContainer.current.style.marginTop = "50vh";
-      logoContainer.current.style.marginLeft = "43%";
+      logoContainer.current.style.marginTop = "45vh";
+      logoContainer.current.style.marginLeft = "40%";
 
       scrollLogo.current.style.opacity = "0";
       logoContainer.current.style.transform = "rotate(90deg";
@@ -31,7 +31,7 @@ const Home = () => {
     } else {
       scrollLogo.current.style.opacity = "1";
       logoContainer.current.style.marginLeft = "0%";
-      logoContainer.current.style.marginTop = "0%";
+      logoContainer.current.style.marginTop = "10px";
       logoContainer.current.style.transform = "rotate(0deg";
       github.current.style.transform = "rotate(0deg";
       linkedin.current.style.transform = "rotate(0deg";

@@ -16,6 +16,13 @@ const ProjectsPage = () => {
         <h1 className="title-projects">Meus Projetos</h1>
         <hr />
       </div>
+      <div
+        data-aos="fade-right"
+        data-aos-duration="500"
+        className="design-log-wrap"
+      >
+        <DesignLogo />
+      </div>
       <div className="svg-wave-wrap">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
@@ -27,13 +34,6 @@ const ProjectsPage = () => {
       </div>
 
       <div className="projects-body">
-        <div
-          data-aos="fade-right"
-          data-aos-duration="500"
-          className="design-log-wrap"
-        >
-          <DesignLogo />
-        </div>
         <div
           data-aos="fade-right"
           data-aos-duration="500"
