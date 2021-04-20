@@ -58,6 +58,12 @@
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  .column-card-container {
+    width: 60%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .column-card-container {
     width: 80%;

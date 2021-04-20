@@ -1,7 +1,5 @@
 import React from "react";
 import Carousel from "nuka-carousel";
-import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
-import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 import "./CardColumn.css";
 
@@ -18,11 +16,13 @@ const CardColumn = () => {
         <div className="column-screen">
           <Carousel
             wrapAround
+            autoplay
             defaultControlsConfig={{
-              nextButtonText: <ArrowForwardIosIcon />,
-              prevButtonText: <ArrowBackIosIcon />,
+              nextButtonText: ">",
+              prevButtonText: "<",
               pagingDotsStyle: {
                 fill: "grey",
+                borderRadius: "5px",
               },
             }}
           >
