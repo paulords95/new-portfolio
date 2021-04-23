@@ -3,13 +3,16 @@ import Carousel from "nuka-carousel";
 
 import "./CardColumn.css";
 
-const CardColumn = () => {
+import LogoLinks from "./LogoLink/LogoLinks";
+
+const CardColumn = (props) => {
   return (
     <div
       style={{
         display: "flex",
+        flexDirection: "column",
         alignItems: "center",
-        flexWrap: "wrap-reverse",
+        flexWrap: "wrap",
       }}
     >
       <div className="column-card-container">
@@ -46,6 +49,7 @@ const CardColumn = () => {
           </Carousel>
         </div>
       </div>
+      <LogoLinks />
       <div className="column-info">
         <h3>Dax App - React Native, Node.js e PostgreSQL</h3>
         <p>

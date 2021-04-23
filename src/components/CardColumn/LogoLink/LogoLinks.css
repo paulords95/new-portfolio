@@ -1,0 +1,30 @@
+.viewWrap {
+  display: flex;
+  width: 20%;
+  height: 70px;
+  position: relative;
+  align-content: center;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.liveView {
+  position: relative;
+  width: 45px;
+}
+
+.liveView:hover {
+  fill: rgba(78, 72, 72, 0.562);
+  cursor: pointer;
+}
+
+.githubLogo {
+  position: relative;
+  top: 22px;
+  width: 90px;
+}
+
+.githubLogo:hover {
+  fill: rgba(78, 72, 72, 0.562);
+  cursor: pointer;
+}
