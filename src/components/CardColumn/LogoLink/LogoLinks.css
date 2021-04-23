@@ -1,16 +1,15 @@
 .viewWrap {
   display: flex;
   width: 20%;
-  height: 70px;
+  height: 100px;
   position: relative;
-  align-content: center;
+  align-items: center;
   margin: 0 auto;
   justify-content: space-evenly;
 }
 
 .liveView {
   position: relative;
-  width: 45px;
 }
 
 .liveView:hover {
@@ -20,8 +19,6 @@
 
 .githubLogo {
   position: relative;
-  top: 22px;
-  width: 90px;
 }
 
 .githubLogo:hover {
