@@ -49,7 +49,7 @@ const CardColumn = (props) => {
           </Carousel>
         </div>
       </div>
-      <LogoLinks />
+      <LogoLinks repoLink="https://github.com/paulords95/novadax-app" />
       <div className="column-info">
         <h3>Dax App - React Native, Node.js e PostgreSQL</h3>
         <p>
